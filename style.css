@@ -1,0 +1,130 @@
+body{
+	background-color: rgb(230,230,23]);
+	color: rgb(30,30,30);
+	font-family: Courier;
+	font-size: 17px;
+	font-weight: lighter;
+
+}
+
+h1, h2, h3 {
+	font-family: Serif;
+
+}
+
+h1{
+	color: #ff0119;
+	font-weight: 800;
+	font-size: 32px;
+	letter-spacing: 6px;
+	text-transform: uppercase;	
+}
+
+h2{
+	color: #7ECE90;
+	font-size: 24px;
+	font-weight: 800;
+	font-weight: lighter;
+	letter-spacing: 4px;
+}
+
+a{
+	font-family: 'Roboto' sans-serif;
+	text-decoration: none;
+	color: #6B72E1;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+a:hover{
+	background-color: aliceblue;
+	color: black;
+	padding: 30px 30px;
+	border-radius: 15px;
+}
+
+div{
+	background: darkslategray;
+	border: 2px solid black;
+	margin: 10px;
+
+}
+
+/* custom design */
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+.Card-white{
+	 background: black;
+	 padding: 40px;
+	 margin: 50px;
+	 box-shadow: 0px 10px 30px rgb(0, 0, 0, 0.1);
+	 border-radius: 15px;
+	 text-align: center;
+}
+
+.img-circle{
+	border-radius: 50px;
+}
+
+.btn-blue {
+	background-color: darkslategray;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 15px;
+}
+
+.btn-blue:hover {
+	background-color: aliceblue;
+	color: darkred;
+	padding: 5px 30px;
+	border-radius: 40px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+}
+
+.list-inline i:  hover{
+	color: black;
+}
+
+
+
+
+/* Padding c'est interne et Margin c'est Externe
+height c'est la hauteur et width la longueur 
+
+border-radius = arrondire
+box-shadow = Ombre ... Attribut ( 1px[vers la gauche] 1px[ vers le bas] 1px[elargi les coins] color )
+*/
